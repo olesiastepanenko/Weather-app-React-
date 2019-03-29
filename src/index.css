@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #E4EAFE;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App, .info {
+    display: flex;
+
+}
+
+.places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+}
+
+.places div, .places h3 {
+    width: 15vw;
+    padding: 2vh 2vw;
+    border-radius: 5px;
+    color: #1A2D6E;
+    cursor: pointer;
+    text-align: start;
+
+}
+
+.places div:hover {
+    background-color: #1A2D6E;
+    color: white;
+}
+
+.weather__info {
+    width: 50vw;
+    color: #1A2D6E;
+
+}
+
+.search__form {
+
+}
+
+/*.search__filtered{*/
+/*display: none;*/
+/*}*/
+input[type=text] {
+    width: 100%;
+    margin: 20px 20px 5px 20px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #1A2D6E;
+    color: #1A2D6E;
+    background-color: #E4EAFE;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 1px solid #1A2D6E;
+}
+
+.search_btn {
+    width: 100%;
+    margin: 5px 20px;
+    padding: 2vh 2vw;
+    border-radius: 5px;
+    background-color: #1A2D6E;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.search_btn:hover {
+    background-color: #5668a3;
+}
